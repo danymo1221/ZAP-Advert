@@ -1,6 +1,6 @@
 Config = {
-    timeToDisplay = 10, -- seconds
-    timeBetweenEachDisplay = 3, -- seconds
+    timeToDisplay = 99999, -- seconds
+    timeBetweenEachDisplay = 0, -- seconds
 
     text = "Testing Banner ✨<br>Testing Bold <u> Testing Underline</u>", -- Uses html markup in order to customize the text. Font can also be taken from main.lua
 
