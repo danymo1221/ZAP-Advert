@@ -38,7 +38,8 @@ window.addEventListener("message", function(event)
         if (config.imageLink != "") {
             imageElem.src = config.imageLink;
             imageElem.style.borderRadius = config.imageBorder + "px";
-            imageElem.width = config.imageSize;
+            imageElem.width = config.imageSizeWidth;
+            imageElem.height = config.imageSizeHeight;
         }
         else {
             imageElem.style.display = "none";
