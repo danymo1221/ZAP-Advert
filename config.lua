@@ -7,7 +7,8 @@ Config = {
     link = "https://zap-hosting.com/a/c712cc646767ff9a7df2fb7893142abc39aca337",  --- The link to be used when clicking ! Can be set as ZAP-Hosting Affiliate Link
 
     imageLink = "https://zap-hosting.com/interface/download/images.php?type=affiliate&id=284105", -- leave empty to only have text appear, image link can be something set like an affiliate banner
-    imageSize = "200", -- in px custom px size, which can also be set
+    imageSizeWidth = "200", -- in px
+    imageSizeHeight = "200", -- in px
     imageBorder = "8", -- round image border (in px)
 
     backgroundColor = "rgba(190, 120, 160, 0.0)", -- RGBA format possible to also use ZAP-Hosting branding colours (set alpha to 0 if you do not wish to have a background)
